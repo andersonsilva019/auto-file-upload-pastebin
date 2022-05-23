@@ -1,0 +1,25 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "execute": "ts-node src/index.ts | pino-pretty"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.35",
+    "dotenv": "^16.0.1",
+    "node-fetch": "2",
+    "pino": "^7.11.0",
+    "readline-sync": "^1.4.10",
+    "ts-node": "^10.8.0",
+    "typescript": "^4.6.4"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node-fetch": "2",
+    "@types/pino": "^7.0.5",
+    "@types/readline-sync": "^1.4.4",
+    "pino-pretty": "^7.6.1"
+  }
+}
